@@ -50,10 +50,11 @@ namespace OnenoteAddin
                         <ribbon>
                             <tabs>
                                 <tab idMso='TabHome'>
-                                    <group id='MarkdownGroup' label='MD'>
+                                    <group id='GroupMD' label='MD'>
                                         <button id='ConvertButton'
-                                                size='large'
-                                                label='選択範囲を変換'
+                                                size='normal'
+                                                showLabel='false'
+                                                screentip='MD:選択範囲を変換'
                                                 imageMso='AcetateModeOriginalMarkup'
                                                 onAction='OnConvertButtonClick'/>
                                     </group>
